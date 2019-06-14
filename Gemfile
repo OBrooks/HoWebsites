@@ -63,6 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Style
 gem 'bootstrap', '~> 4.3.1'
-# gem 'jquery-rails', '~> 4.3.3', '>= 4.3.3'
-# gem 'jquery-ui-rails'
+gem 'jquery-rails', '~> 4.3.3', '>= 4.3.3'
+gem 'jquery-ui-rails'
 # gem 'font-awesome-sass', '~> 5.8.1'
