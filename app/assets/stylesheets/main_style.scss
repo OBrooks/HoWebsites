@@ -1,0 +1,91 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Mukta|Oswald|Oxygen|Questrial|Raleway&display=swap');
+// @import "font-awesome-sprockets";
+// @import "font-awesome";
+// @import "bootstrap";
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: Raleway,
+    'Times New Roman',
+    Times;
+    font-size: 12pt;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1,
+h2,
+.logo,
+#nav-in-burger .nav-side-left a {
+    font-family: Oswald,
+    'Times New Roman',
+    Times;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 30pt;
+}
+h2 {
+    font-size: 50pt;
+    text-align: center;
+}
+h3 {
+    font-family: Oxygen,
+    'Times New Roman',
+    Times;
+    font-size: 18pt;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+i {
+    color: white;
+}
+ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+ul>li>a:hover,
+ul>li>p:hover {
+    text-decoration: none;
+    color: #f1f1f196;
+}
+// #website {
+//     height: 100vh;
+//     overflow-x: hidden;
+//     overflow-y: auto;
+//     padding-right: 15px;
+//     width: 100%;
+// }
+
+.window-fits {
+    width: 100%;
+    height: 100vh;
+}
+
+h3 .presentation-title {
+}
+
+
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
