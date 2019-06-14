@@ -2,7 +2,7 @@
 font-family: 'Gotham Book';
 font-style: normal;
 font-weight: normal;
-src: local('Gotham Book'), url('Gotham/GothamBook.woff') format('woff');
+src: local('Gotham Book'), font-url('Gotham/GothamBook.woff') format('woff');
 }
 
 
@@ -11,7 +11,7 @@ font-family: 'Gotham Book Italic';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Book Italic'),
-url('Gotham/GothamBookItalic.woff') format('woff');
+font-url('Gotham/GothamBookItalic.woff') format('woff');
 }
 
 
@@ -20,7 +20,7 @@ font-family: 'Gotham Light';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Light'),
-url('Gotham/GothamLight.woff') format('woff');
+font-url('Gotham/GothamLight.woff') format('woff');
 }
 
 
@@ -29,7 +29,7 @@ font-family: 'Gotham Light Italic';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Light Italic'),
-url('Gotham/GothamLightItalic.woff') format('woff');
+font-url('Gotham/GothamLightItalic.woff') format('woff');
 }
 
 
@@ -38,7 +38,7 @@ font-family: 'Gotham Medium';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Medium'),
-url('Gotham/GothamMedium.woff') format('woff');
+font-url('Gotham/GothamMedium.woff') format('woff');
 }
 
 
@@ -47,7 +47,7 @@ font-family: 'Gotham Medium';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Medium'),
-url('Gotham/GothamMedium_1.woff') format('woff');
+font-url('Gotham/GothamMedium_1.woff') format('woff');
 }
 
 
@@ -56,7 +56,7 @@ font-family: 'Gotham Medium';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Medium'),
-url('Gotham/GothamMediumItalic.woff') format('woff');
+font-url('Gotham/GothamMediumItalic.woff') format('woff');
 }
 
 
@@ -65,7 +65,7 @@ font-family: 'Gotham Bold';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Bold'),
-url('Gotham/GothamBold.woff') format('woff');
+font-url('Gotham/GothamBold.woff') format('woff');
 }
 
 
@@ -74,7 +74,7 @@ font-family: 'Gotham Bold';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Bold'),
-url('Gotham/Gotham-Bold.woff') format('woff');
+font-url('Gotham/Gotham-Bold.woff') format('woff');
 }
 
 
@@ -83,7 +83,7 @@ font-family: 'Gotham Bold Italic';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Bold Italic'),
-url('Gotham/GothamBoldItalic.woff') format('woff');
+font-url('Gotham/GothamBoldItalic.woff') format('woff');
 }
 
 
@@ -92,7 +92,7 @@ font-family: 'Gotham Black Regular';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Black Regular'),
-url('Gotham/Gotham-Black.woff') format('woff');
+font-url('Gotham/Gotham-Black.woff') format('woff');
 }
 
 
@@ -101,7 +101,7 @@ font-family: 'Gotham Light Regular';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Light Regular'),
-url('Gotham/Gotham-Light.woff') format('woff');
+font-url('Gotham/Gotham-Light.woff') format('woff');
 }
 
 
@@ -110,7 +110,7 @@ font-family: 'Gotham Thin Regular';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Thin Regular'),
-url('Gotham/Gotham-Thin.woff') format('woff');
+font-url('Gotham/Gotham-Thin.woff') format('woff');
 }
 
 
@@ -119,7 +119,7 @@ font-family: 'Gotham XLight Regular';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham XLight Regular'),
-url('Gotham/Gotham-XLight.woff') format('woff');
+font-url('Gotham/Gotham-XLight.woff') format('woff');
 }
 
 
@@ -128,7 +128,7 @@ font-family: 'Gotham Book Italic';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Book Italic'),
-url('Gotham/Gotham-BookItalic.woff') format('woff');
+font-url('Gotham/Gotham-BookItalic.woff') format('woff');
 }
 
 
@@ -137,7 +137,7 @@ font-family: 'Gotham Thin Italic';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Thin Italic'),
-url('Gotham/Gotham-ThinItalic.woff') format('woff');
+font-url('Gotham/Gotham-ThinItalic.woff') format('woff');
 }
 
 
@@ -146,7 +146,7 @@ font-family: 'Gotham Ultra Italic';
 font-style: normal;
 font-weight: normal;
 src: local('Gotham Ultra Italic'),
-url('Gotham/Gotham-UltraItalic.woff') format('woff');
+font-url('Gotham/Gotham-UltraItalic.woff') format('woff');
 }
 
 
