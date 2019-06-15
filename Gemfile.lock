@@ -197,12 +197,12 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
-  capybara (>= 2.15)
+  capybara (~> 3.24.0)
   coffee-rails
   font-awesome-sass (~> 5.8.1)
   jbuilder
   jquery-rails (>= 4.3.3)
-  jquery-ui-rails
+  jquery-ui-rails (~> 6.0.1)
   listen (>= 3.0.5)
   pg
   puma
@@ -215,7 +215,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier
   web-console (>= 3.3.0)
-  webdrivers
+  webdrivers (~> 4.0.1)
 
 RUBY VERSION
    ruby 2.6.3p62
