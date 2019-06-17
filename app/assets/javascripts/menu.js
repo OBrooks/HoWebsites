@@ -25,7 +25,4 @@ burger.addEventListener('click', function () {
     $(ul.classList.add("show")).delay(1000);
     }
 });
-    
-    console.log(ul);
-    
 });
