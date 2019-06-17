@@ -16,7 +16,6 @@ gem 'sass-rails', '~> 5.0.7'
 #gem 'sassc-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
-gem 'yui-compressor'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
