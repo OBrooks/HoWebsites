@@ -1,4 +1,5 @@
 document.addEventListener("turbolinks:load", function () {
+    
 const burger = document.getElementById('burger');
 const windows = document.getElementById('main');
 const ul = document.getElementById("nav-side-right");

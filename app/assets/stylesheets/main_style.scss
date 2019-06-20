@@ -128,6 +128,14 @@ li {
     justify-content: center;
 }
 
+.align-end {
+    align-self: flex-end;
+}
+
+.align-start  {
+    align-self: flex-start;
+}
+
 .cursor {
     z-index: 98;
     background: white;
@@ -242,7 +250,12 @@ margin-block-start: 5%;
 
     .side-right {
         margin-left: 40px;
-        align-self: flex-end;
     }
 
+}
+
+@media (min-width: 1024px) {
+    .align-end {
+        align-self: auto;
+    }
 }

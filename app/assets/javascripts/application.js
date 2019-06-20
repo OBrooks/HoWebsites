@@ -14,4 +14,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require Anime-js/lodash.min
+//= require Anime-js/index.bundle
+//= require Anime-js/anime.min
 //= require_tree .
