@@ -78,7 +78,7 @@ header ul li {
     
 }
 
-#nav-in-burger>div>ul#nav-side-right>li
+#nav-in-burger>div>ul.side-right>li
 {
     display: flex;
     flex-direction: row;
@@ -88,7 +88,7 @@ header ul li {
 
 }
 
-.header_i {
+.i_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -117,27 +117,26 @@ header ul li {
     height: min-content;
 }
 
-ul#nav-side-right {
+.side-right {
     display: flex;
-    flex-direction: column;
     list-style-type: none;
     padding-left: 14px;
     position: relative;
 }
 
-ul#nav-side-right:after {
-    -webkit-transition: height 1s ease;
+ul.side-right:after {
+    -webkit-transition: height 2s ease;
     background-color: #fff;
     bottom: -10%;
     content: "";
     height: 100%;
     left: 0;
     position: absolute;
-    transition: height 1s ease;
+    transition: height 2s ease;
     width: 2px
 }
 
-ul#nav-side-right li {
+ul.side-right li {
     color: #fff;
     font-family: "Gotham Thin Regular",
     'Times New Roman',
@@ -151,16 +150,16 @@ ul#nav-side-right li {
     align-items: center;
 }
 
-#nav-side-right li {
+.side-right li {
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
 }
 
-ul#nav-side-right:after {
+ul.side-right:after {
     height: 0
 }
 
-ul#nav-side-right.show:after {
+ul.side-right.show:after {
     height: 100%
 }
 
@@ -215,6 +214,8 @@ ul#nav-side-right.show:after {
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
+    display: flex;
+    flex-direction: column;
     transition: margin-left 2s ease-in;
     padding: 20px;
 }
@@ -233,22 +234,22 @@ ul#nav-side-right.show:after {
 /************
 3. Other animations
 ************/
-ul#nav-side-right li{
+ul.side-right li{
     width: min-content;
 
 }
-ul#nav-side-right li a {
+ul.side-right li a {
     white-space: nowrap;
 }
-ul#nav-side-right li a:after {
+ul.side-right li a:after {
     width: 0;
 }
 
-ul#nav-side-right li a.underline:after {
+ul.side-right li a.underline:after {
     width: calc(100% - 60px);
 }
 
-ul#nav-side-right li a:after {
+ul.side-right li a:after {
     -webkit-transition: width 1s ease;
     background-color: #fff;
     content: "";

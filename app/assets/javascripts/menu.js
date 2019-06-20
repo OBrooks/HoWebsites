@@ -1,7 +1,11 @@
 document.addEventListener("turbolinks:load", function () {
 const burger = document.getElementById('burger');
-const windows = document.getElementById('window-fits');
+const windows = document.getElementById('main');
 const ul = document.getElementById("nav-side-right");
+const contact = document.getElementById("contact");
+    if (contact) {
+$(contact.classList.add("show")).delay(2000);
+    }
 burger.addEventListener('click', function () {
     var nav_in_burger = document.getElementById("nav-in-burger")
     var burger_status_icon = document.getElementById("nav-wrap").getElementsByClassName("open")[0];

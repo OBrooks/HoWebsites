@@ -1,7 +1,34 @@
-<div id="window-fits">
+<div class="window-fits row">
     <div class="presentation-title zoom-on">
-        <h2 class="coucou">2xU_H</h2>
-        <h2 class="coucou">Websites</h2>
-        <h3 class="coucou">Laissez la créativité prendre vie</h3>
+        <h1>2xU_H</h1>
+        <h1>Websites</h1>
+        <h3>Laissez la créativité prendre vie</h3>
     </div>
+</div>
+<div class="window-fits column">
+    <div class="title flex row">
+        <div class="interactive-image flex column items-center">
+            <img class="wheel" src="<%= asset_path 'wheel.png' %>" alt="wheel">
+            <img class="hand" src="<%= asset_path 'hand.png' %>" alt="hand">
+        </div>
+        <h2>Mes services</h2>
+    </div>
+    <ul class="flex column">
+        <li class="flex row items-center">
+            <div class="i_container"><i class="fas fa-laptop-code fa-2x"></i></div>
+            <p>Création complète de votre site internet (e-commerce, blog, landing page, etc...)</p>
+        </li>
+        <li class="flex row items-center">
+            <div class="i_container"><i class="fas fa-edit fa-2x"></i></div>
+            <p>Modification, ajouts ou améliorations de votre site déjà existant</p>
+        </li>
+        <li class="flex row items-center">
+            <div class="i_container"><i class="fas fa-palette fa-2x"></i></div>
+            <p>Refonte du "design" de votre site (Front-End)</p>
+        </li>
+        <li class="flex row items-center">
+            <div class="i_container"><i class="fas fa-file-code fa-2x"></i></div>
+            <p>Modifications de la partie "logiciel" de votre site (Back-End)</p>
+        </li>
+    </ul>
 </div>
