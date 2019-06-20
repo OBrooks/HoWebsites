@@ -1,21 +1,30 @@
-window.addEventListener('scroll', () => {
-    
-if (window.matchMedia("(max-width: 1024px)").matches) {
+document.addEventListener("turbolinks:load", function () {
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
     anime({
-        targets: '#services li',
-        translateX: 50,
-        delay: anime.stagger(200, {
-            start: 50
-        }) // delay starts at 500ms then increase by 100ms for each elements.
-    });
-}
-else {
-        anime({
-            targets: '#services li',
-            translateX: 200,
-            delay: anime.stagger(200, {
-                start: 50
-            }) // delay starts at 500ms then increase by 100ms for each elements.
-        });
-}
+    targets: 'svg.small-circle',
+    keyframes: [{
+            translateY: getRandomIntInclusive(- 300, 1200 )
+        },
+        {
+            translateX: getRandomIntInclusive(-300, 1200)
+        },
+        {
+            translateY: getRandomIntInclusive(-300, 1200)
+        },
+        {
+            translateX: 0
+        },
+        {
+            translateY: 0
+        }
+    ],
+    duration: 10000,
+    easing: 'easeOutElastic(1, .8)',
+    loop: true
+});
 });

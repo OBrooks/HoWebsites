@@ -100,6 +100,10 @@ li {
     margin: 10px;
 }
 
+circle {
+    color: white;
+}
+
 /************
 2. General custom classes
 ************/
@@ -213,6 +217,21 @@ margin-block-start: 5%;
     width: 100%;
     margin: 20px;
 }
+
+.animation-background {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.presentation-title {
+    position: absolute;
+    z-index: 3;
+}
 /************
 3. Images
 ************/
@@ -233,6 +252,17 @@ margin-block-start: 5%;
 .interactive-image img.wheel {
     width: 50px;
     transform: rotate(15deg);
+}
+
+.small-circle {
+    fill:white;
+    stroke-width: 0.5px;
+    mix-blend-mode: difference;
+}
+
+svg.small-circle {
+    width: 40px;
+    height: 40px;
 }
 /************
 4. Responsive
