@@ -18,27 +18,6 @@ function back_anim() {
 
         function animateShape(el) {
 
-            var viewportOffset = el.getBoundingClientRect();
-            // these are relative to the viewport, i.e. the window
-            var top = (((viewportOffset.top) / 10) * sw) / 100;
-            var bot = (((viewportOffset.bottom) / 10) * sw) / 100;
-            var left = (((viewportOffset.left) / 10) * sw) / 100;
-            var right = (((viewportOffset.right)/10)*sw)/100;
-            console.log("top",top)
-            console.log("bottom", bot)
-            console.log("left", left)
-            console.log("right", right)
-            
-            var maxXR= sw - right
-            var maxXL = -left
-            var maxYB = sh - bot
-            var maxYT = -top
-
-            console.log("top", maxYT)
-            console.log("bottom", maxYB)
-            console.log("left", maxXL)
-            console.log("right", maxXR)
-
             var circleEl = el.querySelector('circle');
             var animation = anime.timeline({
                                         targets: el,
