@@ -128,6 +128,10 @@ circle {
     align-items: center;
 }
 
+.content-center {
+    align-content: center;
+}
+
 .justify-center {
     justify-content: center;
 }
@@ -164,9 +168,11 @@ circle {
 }
 
 #main {
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 2s ease-in;
     width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     // justify-content: center;
     align-content: center;
@@ -231,6 +237,12 @@ margin-block-start: 5%;
 .presentation-title {
     position: absolute;
     z-index: 3;
+    height: 100vh;
+    width: 100%;
+}
+
+.presentation-title h3 {
+    text-align: center;
 }
 /************
 3. Images
@@ -261,8 +273,9 @@ margin-block-start: 5%;
 }
 
 svg.small-circle {
-    width: 40px;
-    height: 40px;
+    width: 400px;
+    height: 400px;
+    z-index: 3;
 }
 /************
 4. Responsive

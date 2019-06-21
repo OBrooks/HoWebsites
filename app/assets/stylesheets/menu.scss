@@ -15,6 +15,7 @@ header#nav-wrap {
     align-items: center;
     justify-content: space-between;
     padding-top: 5px;
+    z-index: 99;
 }
 
 .logo {
@@ -213,12 +214,6 @@ ul.side-right.show:after {
 /* Position and style the close button (top right corner) */
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    display: flex;
-    flex-direction: column;
-    transition: margin-left 2s ease-in;
-    padding: 20px;
-}
 #main .show-menu {
     white-space: nowrap;
     transition: margin-left 2s ease-out;
