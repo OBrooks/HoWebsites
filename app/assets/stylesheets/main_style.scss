@@ -392,6 +392,10 @@ svg.small-circle {
     opacity: 1;
 }
 
+.badge-container img {
+    max-height: fit-content;
+    max-width: fit-content;
+}
 /************
 4. Responsive
 ************/
