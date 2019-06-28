@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta|Oswald|Oxygen|Questrial|Raleway&display=swap');
 @import "font-awesome-sprockets";
 @import "font-awesome";
-// @import "bootstrap";
 
 /************
 1. General
@@ -147,7 +146,7 @@ circle {
     flex-direction: column;
 }
 
-.row {
+.line {
     flex-direction: row;
 }
 
@@ -314,7 +313,7 @@ margin-block-start: 3%;
     line-height: 2em;
 }
 
-.card h4 {
+.cardo h4 {
     margin-top: 20px;
 }
 h4.line-2 {
