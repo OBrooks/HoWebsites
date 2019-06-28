@@ -16,6 +16,10 @@ html {
     min-width: 100vw;
     position: relative;
     overflow-x: hidden;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 body
@@ -218,7 +222,6 @@ circle {
     flex-direction: column;
     transition: margin-left 2s ease-in;
     width: 100%;
-    display: flex;
     align-items: center;
     // justify-content: center;
     align-content: center;
@@ -417,7 +420,7 @@ svg.small-circle {
 
 @media screen and (max-width: 1024px) and (max-height: 720px) {
     .window-fits {
-        margin: 10%;
+        margin-bottom: 10%;
     }
 }
 
