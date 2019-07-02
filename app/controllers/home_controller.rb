@@ -7,5 +7,8 @@ class HomeController < ApplicationController
 
   def projects
   end
+
+  def prices
+  end
   
 end

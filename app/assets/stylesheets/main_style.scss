@@ -25,6 +25,7 @@ html {
 body
 {
     min-height: 100vh;
+    width: 100%;
     background-color: black;
     color: white;
     font-family: Raleway,
@@ -108,6 +109,11 @@ path {
 
 ul {
     margin: 10px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
 
@@ -136,6 +142,33 @@ li {
 
 circle {
     color: white;
+}
+
+
+// td {
+//     border: 1px solid #333;
+// }
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+tr {
+    border-bottom: solid thin;
+}
+
+td:nth-child(3),
+td:nth-child(2){
+    border-left: solid medium;
+    padding: 1%;
+    text-align: center;
+}
+
+thead,
+tr {
+    margin-bottom: 10%;
+    font-size: 1.2em;
 }
 
 /************
@@ -322,6 +355,14 @@ margin-block-start: 3%;
 h4.line-2 {
     margin-top: 0px;
 }
+
+.flex.line p {
+    margin: 0.5%;
+}
+
+.mtop-3 {
+    margin-top: 3%;
+}
 /************
 3. Images
 ************/
@@ -402,7 +443,15 @@ svg.small-circle {
 4. Responsive
 ************/
 
+
 @media screen and (max-width: 1024px) {
+        
+    header .logo {
+            font-size: 200%;
+        }
+    body {
+        font-size: 150%;
+    }
     
     span.cursor {
         visibility: hidden;
@@ -425,13 +474,7 @@ svg.small-circle {
 }
 
 @media all and (max-width: 1024px) {
-    
-    header .logo {
-            font-size: 200%;
-        }
-    body {
-        font-size: 150%;
-    }
+
     .wrap-screen {
         width: 30%;
     }
