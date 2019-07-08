@@ -136,7 +136,6 @@ ul.side-right li {
     'Times New Roman',
     Times;
     font-size: 1.3em;
-    font-weight: 700;
     line-height: 100%;
     margin-top: 8px;
     display: flex;
@@ -190,7 +189,6 @@ ul.side-right.show:after {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 55px;
-    font-weight: 700;
     font-family: 'Gotham Black Regular', 'Times New Roman', Times;
     font-kerning: normal;
     -webkit-text-stroke-color: rgb(255, 255, 255);
@@ -254,5 +252,16 @@ ul.side-right li a:after {
 @media screen and (max-width: 1024px) {
     #nav-in-burger .nav-side-left a {
         -webkit-text-stroke-width: 0.01em;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    #nav-in-burger .nav-side-left a {
+        font-weight: 700;
+    }
+
+    ul.side-right li {
+        font-weight: 700;
     }
 }
