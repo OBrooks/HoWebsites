@@ -281,10 +281,28 @@ ul.side-right li a:after {
 }
 
 
+/* iPhone 4 ----------- */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+        ul.side-right.show:after {
+            height: 50%;
+            bottom: 45%
+        }
+}
+
 /* iPhone 5 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
     ul.side-right.show:after {
         height: 50%;
-        bottom: 45%
+        bottom: 50%
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+    ul.side-right.show:after {
+        height: 50%;
+        bottom: 50%
     }
 }
