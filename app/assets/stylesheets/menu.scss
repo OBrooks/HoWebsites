@@ -249,6 +249,7 @@ ul.side-right li a:after {
 /************
 4. Responsive
 ************/
+
 @media screen and (max-width: 1024px) {
     #nav-in-burger .nav-side-left a {
         -webkit-text-stroke-width: 0.01em;
@@ -263,5 +264,27 @@ ul.side-right li a:after {
 
     ul.side-right li {
         font-weight: 700;
+    }
+}
+
+
+@media only screen and (orientation : landscape) {
+        #nav-in-burger {
+            flex-direction: row;
+        }
+}
+
+@media only screen and (orientation : portrait) {
+    #nav-in-burger {
+        flex-direction: column;
+    }
+}
+
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+    ul.side-right.show:after {
+        height: 50%;
+        bottom: 45%
     }
 }
