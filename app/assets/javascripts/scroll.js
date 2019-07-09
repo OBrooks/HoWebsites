@@ -17,7 +17,7 @@ window.addEventListener('scroll', () => {
 //         }, 1000 * i);
 //     })(i);
 
-};
+// };
     if (window.matchMedia("(max-width: 1024px)").matches) {
         anime({
             targets: '#services li',
