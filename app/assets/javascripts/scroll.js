@@ -7,6 +7,17 @@ $(window).scroll(function () {
 
 window.addEventListener('scroll', () => {
 
+// const services = document.getElementById("services");
+// const li_services= services.getElementsByTagName("li");
+// console.log(li_services);
+// for (var i = 0; i < li_services.length; i++) {
+//     (function (i) {
+//         setTimeout(function () {
+//             $(li_services[i].classList.add("move_it")).delay(500);
+//         }, 1000 * i);
+//     })(i);
+
+};
     if (window.matchMedia("(max-width: 1024px)").matches) {
         anime({
             targets: '#services li',

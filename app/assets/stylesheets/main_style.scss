@@ -444,6 +444,18 @@ svg.small-circle {
 .badge-container img:hover {
     margin-bottom: 40px;
 }
+
+#services li {
+    height: 60px;
+}
+
+#services li.move_it {
+    transition: padding-left 1s ease-in-out;
+}
+
+#services li.move_it {
+    padding-left: 25%;
+}
 /************
 4. Responsive
 ************/
@@ -472,6 +484,18 @@ svg.small-circle {
 
     .side-right {
         margin-left: 40px;
+    }
+
+    #services li {
+        padding-right: 5%;
+    }
+
+    #services li {
+        height: 80px;
+    }
+
+    #services li.move_it {
+        padding-left: 15%;
     }
 
 }

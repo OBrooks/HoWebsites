@@ -54,7 +54,6 @@ function back_anim() {
         }
 
         for (var i = 0; i < shapeEls.length; i++) {
-                        console.log(i)
             animateShape(shapeEls[i]);
         };
     }
