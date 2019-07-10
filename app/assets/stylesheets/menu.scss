@@ -92,6 +92,8 @@ header ul li {
 #nav-wrap .logo {
     z-index: 98;
     position: relative;
+    color: white;
+    mix-blend-mode: difference;
 }
 
 #nav-in-burger {
@@ -154,7 +156,6 @@ ul.side-right.show:after {
     height: 100%
 }
 
-
 /************
 2. Menu animation
 ************/
@@ -167,7 +168,7 @@ ul.side-right.show:after {
     /* 0 width - change this with JavaScript */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 97;
     /* Stay on top */
     top: 0;
     /* Stay at the top */
@@ -181,7 +182,9 @@ ul.side-right.show:after {
     transition: 2s;
     /* 0.3 second transition effect to slide in the sidenav */
 }
-
+#nav-in-burger .nav-side-left li {
+    list-style-type:none
+}
 /* The navigation menu links */
 #nav-in-burger .nav-side-left a {
     padding: 8px 8px 8px 32px;

@@ -9,7 +9,6 @@ window.addEventListener('scroll', () => {
 
 const services = document.getElementById("services");
 const li_services= services.getElementsByTagName("li");
-console.log(li_services);
 for (var i = 0; i < li_services.length; i++) {
     (function (i) {
         setTimeout(function () {
