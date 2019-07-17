@@ -363,9 +363,11 @@ h4.line-2 {
 .mtop-3 {
     margin-top: 3%;
 }
+
 #nav-wrap {
     mix-blend-mode: difference;
 }
+
 /************
 3. Images
 ************/
@@ -399,12 +401,6 @@ svg.small-circle {
     width: 40px;
     height: 40px;
     z-index: 3;
-}
-
-.badge-container img
-{
-    // width:min-content;
-    // height:min-content;
 }
 
 .img-project {
@@ -441,8 +437,8 @@ svg.small-circle {
 }
 
 .badge-container img {
-    max-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
     transition: 0.3s ease-in-out;
 }
 
@@ -451,7 +447,7 @@ svg.small-circle {
 }
 
 #services li {
-    height: 60px;
+    height: fit-content;
 }
 
 #services li.move_it {
@@ -520,10 +516,9 @@ progress-ring svg circle {
 
     #services li {
         padding-right: 5%;
-    }
-
-    #services li {
-        height: 80px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: fit-content;
     }
 
     #services li.move_it {
@@ -551,5 +546,11 @@ progress-ring svg circle {
 @media (min-width: 1024px) {
     .align-end {
         align-self: auto;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (orientation : landscape) {
+    #projects {
+        margin-top: 5%;
     }
 }
