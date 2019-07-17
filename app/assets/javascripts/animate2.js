@@ -1,10 +1,11 @@
 document.addEventListener("turbolinks:load", function () {
-
+const backAnim = document.querySelector(".animation-background")
+if (backAnim) {
 function back_anim() {
         sh = screen.height
         sw = screen.width
 
-        var backAnim = document.querySelector(".animation-background");
+        // var backAnim = document.querySelector(".animation-background");
         var shapeEls = backAnim.querySelectorAll(".shape");
         var easings = ['easeInOutQuad', 'easeInOutCirc', 'easeInOutSine', 'spring'];
 
@@ -86,4 +87,5 @@ back_anim()
 //     easing: 'easeOutElastic(1, .8)',
 //     loop: true
 // });
+}
 });

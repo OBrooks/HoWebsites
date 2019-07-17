@@ -1,13 +1,17 @@
-$(window).scroll(function () {
-    var theta = $(window).scrollTop() / 100 % Math.PI;
-    $('.wheel').css({
-        transform: 'rotate(' + theta + 'rad)'
-    });
-});
-
-window.addEventListener('scroll', () => {
+document.addEventListener("turbolinks:load", function () {
+    const wheel = document.getElementsByClassName("wheel")
+    if (wheel) {
+    $(window).scroll(function () {
+        var theta = $(window).scrollTop() / 100 % Math.PI;
+        $('.wheel').css({
+            transform: 'rotate(' + theta + 'rad)'
+            });
+        });
+    }
 
 const services = document.getElementById("services");
+if (services) {
+window.addEventListener('scroll', () => {
 const li_services= services.getElementsByTagName("li");
 for (var i = 0; i < li_services.length; i++) {
     (function (i) {
@@ -34,4 +38,6 @@ for (var i = 0; i < li_services.length; i++) {
     //         }) // delay starts at 500ms then increase by 100ms for each elements.
     //     });
     // }
+});
+}
 });

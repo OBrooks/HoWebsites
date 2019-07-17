@@ -3,7 +3,10 @@
 </div>
 <div class="two-sides">
     <div class="side-left line">
-        <img src="<%= asset_path 'profile.JPG' %>" alt="Photo de profil">
+        <div id="contain-picture-circle">
+            <img id="profile-picture" src="<%= asset_path 'profile.JPG' %>" alt="Photo de profil">
+            <progress-ring stroke="4" radius="140" progress="0"></progress-ring>
+        </div>
         <div class="presentation">
             <h3>William Horel, jeune développeur Full-Stack réalise vos demandes sur-mesure.</h3>
             <p>Lancé en juin 2019 dans la réalisation autonome de sites internet, vous pouvez le contacter aux coordonnés suivantes.</p>

@@ -370,9 +370,11 @@ h4.line-2 {
 3. Images
 ************/
 .side-left img {
-    height: 300px;
-    margin: 30px;
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
     margin-left: 0;
+    border-radius: 50%;
 }
 
 .interactive-image {
@@ -459,12 +461,39 @@ svg.small-circle {
 #services li.move_it {
     padding-left: 25%;
 }
+
+#contain-picture-circle{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin-right: 70px;
+}
+
+#profile-picture,
+progress-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+progress-ring {
+    z-index: 10;
+}
+
+progress-ring svg circle {
+    stroke: black;
+}
+
 /************
 4. Responsive
 ************/
 
 
 @media screen and (max-width: 1024px) {
+
+    #contain-picture-circle {
+        margin-right: 70px;
+    }
 
     .img-description p {
         line-height: normal;
