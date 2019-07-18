@@ -1,0 +1,24 @@
+@keyframes play129 {
+    0% {
+        background-position: 0px 0px;
+    }
+
+    100% {
+        background-position: -6192px 0px;
+    }
+}
+
+#shapeshifter-language {
+    animation-duration: 2150ms;
+    animation-timing-function: steps(129);
+    width: 48px;
+    height: 48px;
+    background-image: url(asset_path("language.svg"));
+    background-size: 6240px 48px;
+    background-repeat: no-repeat;
+    animation-fill-mode: forwards;
+}
+
+#shapeshifter-language.play {
+    animation-name: play129;
+}

@@ -12,7 +12,10 @@ document.addEventListener("turbolinks:load", function () {
 const services = document.getElementById("services");
 if (services) {
 window.addEventListener('scroll', () => {
+let scrollPosY = window.scrollY;
 const li_services= services.getElementsByTagName("li");
+let servicesTop = ($(services).position().top) * 0.6;
+if (scrollPosY >= servicesTop) {
 for (var i = 0; i < li_services.length; i++) {
     (function (i) {
         setTimeout(function () {
@@ -21,23 +24,17 @@ for (var i = 0; i < li_services.length; i++) {
     })(i);
 
 };
-    // if (window.matchMedia("(max-width: 1024px)").matches) {
-    //     anime({
-    //         targets: '#services li',
-    //         translateX: 50,
-    //         delay: anime.stagger(200, {
-    //             start: 50
-    //         }) // delay starts at 500ms then increase by 100ms for each elements.
-    //     });
-    // } else {
-    //     anime({
-    //         targets: '#services li',
-    //         translateX: 200,
-    //         delay: anime.stagger(200, {
-    //             start: 50
-    //         }) // delay starts at 500ms then increase by 100ms for each elements.
-    //     });
-    // }
+}
 });
+}
+const shapeshifter = document.getElementById("shapeshifter-language")
+if (shapeshifter) {
+    let shapeshifterTop = ($(shapeshifter).position().top) * 0.8
+    window.addEventListener('scroll', () => {
+        let scrollPosY = window.scrollY
+        if (scrollPosY >= shapeshifterTop) {
+        $(shapeshifter.classList.add("play"));
+    }
+    });
 }
 });
