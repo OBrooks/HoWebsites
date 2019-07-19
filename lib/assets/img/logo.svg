@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{display:none;}
+	.st4{display:inline;fill:url(#SVGID_4_);}
+	.st5{display:inline;fill:url(#SVGID_5_);}
+	.st6{display:inline;fill:url(#SVGID_6_);}
+	.st7{fill:url(#SVGID_7_);}
+	.st8{fill:url(#SVGID_8_);}
+	.st9{display:none;fill:#F15A24;}
+	.st10{display:none;fill:#F7931E;}
+	.st11{display:none;fill:#FBB03B;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="24" y2="12">
+		<stop  offset="0" style="stop-color:#60ADB2"/>
+		<stop  offset="0.5" style="stop-color:#196083"/>
+		<stop  offset="1" style="stop-color:#0A537A"/>
+	</linearGradient>
+	<circle class="st0" cx="12" cy="12" r="12"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2" y1="12" x2="22" y2="12">
+		<stop  offset="0" style="stop-color:#63AFB4"/>
+		<stop  offset="0.4987" style="stop-color:#448F9F"/>
+		<stop  offset="1" style="stop-color:#2C768F"/>
+	</linearGradient>
+	<circle class="st1" cx="12" cy="12" r="10"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="4" y1="12" x2="20" y2="12">
+		<stop  offset="0" style="stop-color:#81D1C8"/>
+		<stop  offset="0.5012" style="stop-color:#79C8C2"/>
+		<stop  offset="0.529" style="stop-color:#77C6C1"/>
+		<stop  offset="0.8064" style="stop-color:#66B3B6"/>
+		<stop  offset="1" style="stop-color:#60ACB2"/>
+	</linearGradient>
+	<circle class="st2" cx="12" cy="12" r="8"/>
+</g>
+<g class="st3">
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="24" y2="12">
+		<stop  offset="0" style="stop-color:#79B2C5"/>
+		<stop  offset="0.5" style="stop-color:#3A9AB2"/>
+		<stop  offset="1" style="stop-color:#008AA5"/>
+	</linearGradient>
+	<circle class="st4" cx="12" cy="12" r="12"/>
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="2" y1="12" x2="22" y2="12">
+		<stop  offset="0" style="stop-color:#B2DAE0"/>
+		<stop  offset="0.5" style="stop-color:#85C7D0"/>
+		<stop  offset="0.6082" style="stop-color:#7AC3CD"/>
+		<stop  offset="0.8389" style="stop-color:#67BCC8"/>
+		<stop  offset="1" style="stop-color:#60BAC6"/>
+	</linearGradient>
+	<circle class="st5" cx="12" cy="12" r="10"/>
+	<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="4" y1="12" x2="20" y2="12">
+		<stop  offset="0" style="stop-color:#D0E7EA"/>
+		<stop  offset="0.5" style="stop-color:#AAD7DE"/>
+		<stop  offset="0.7293" style="stop-color:#A0D2DA"/>
+		<stop  offset="1" style="stop-color:#99CFD7"/>
+	</linearGradient>
+	<circle class="st6" cx="12" cy="12" r="8"/>
+</g>
+<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="4.8445" y1="12" x2="8.1555" y2="12" gradientTransform="matrix(-1 0 0 1 13 0)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="0.0896" style="stop-color:#FFFFFF;stop-opacity:0.0896"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<polygon class="st7" points="4.84,22.5 8.16,22.5 8.16,1.5 4.84,1.5 "/>
+<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="15.8445" y1="12" x2="19.1555" y2="12">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="0.0896" style="stop-color:#FFFFFF;stop-opacity:0.0896"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<rect x="15.84" y="1.5" class="st8" width="3.31" height="21"/>
+<path d="M8.13,13.32l4.41-1.59c-0.15-0.02-0.3-0.04-0.44-0.07c0,0,0,0,0,0c-0.66,0.02-1.21,0.06-1.67,0.12
+	c-2.45,0.34-2.4,1.21-2.33,1.47C8.11,13.27,8.12,13.3,8.13,13.32z"/>
+<path d="M15.87,13.31c0.06-0.16,0.33-1.15-2.32-1.52c-0.46-0.06-1-0.11-1.65-0.13c0,0-0.01,0-0.01,0c-0.18,0.01-0.37,0.02-0.55,0.04
+	l4.49,1.62C15.84,13.31,15.86,13.31,15.87,13.31z"/>
+<rect x="7.43" y="3.26" width="0.72" height="10.05"/>
+<rect x="15.82" y="3.26" width="0.72" height="10.05"/>
+<rect x="4.84" y="1.5" class="st9" width="3.31" height="1.77"/>
+<rect x="4.84" y="3.27" class="st10" width="2.59" height="10.05"/>
+<rect x="4.84" y="13.33" class="st11" width="3.31" height="9.17"/>
+</svg>
