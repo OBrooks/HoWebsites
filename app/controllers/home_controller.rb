@@ -10,7 +10,4 @@ class HomeController < ApplicationController
 
   def prices
   end
-  
-  def svg
-  end
 end
