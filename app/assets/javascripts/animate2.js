@@ -2,6 +2,7 @@ document.addEventListener("turbolinks:load", function () {
 const backAnim = document.querySelector(".animation-background")
 if (backAnim) {
 function back_anim() {
+    backAnim.style.visibility = "visible"
         sh = screen.height
         sw = screen.width
 
@@ -58,7 +59,11 @@ function back_anim() {
             animateShape(shapeEls[i]);
         };
     }
-back_anim()
+
+    setTimeout(function () {
+        back_anim();
+    }, 6000);
+
 // function getRandomIntInclusive(min, max) {
 //     min = Math.ceil(min);
 //     max = Math.floor(max);
