@@ -10,9 +10,23 @@ header {
 header#nav-wrap {
     position: fixed;
     width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-direction: row;
+    -moz-box-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -moz-align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
+    -moz-justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
     justify-content: space-between;
     padding-top: 5px;
     z-index: 98;
@@ -39,13 +53,25 @@ header#nav-wrap {
 }
 
 .header-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-direction: column;
+    -moz-box-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     border-bottom: 1px solid #F2F2F2;
     padding: 0.5em 0;
 }
 
 header ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
 }
@@ -61,7 +87,14 @@ header ul li {
     margin: 6px 0;
 }
 #burger {
+    -moz-align-self: flex-start;
+    -ms-flex-item-align: start;
+    -webkit-align-self: flex-start;
     align-self: flex-start;
+    -webkit-box-ordinal-group: 3;  
+    -moz-box-ordinal-group: 3;     
+    -ms-flex-order: 3;     
+    -webkit-order: 3;  
     order: 3;
     margin: 5px;
     z-index: 98;
@@ -82,10 +115,24 @@ header ul li {
 
 #nav-in-burger>div>ul.side-right>li
 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-direction: row;
+    -moz-box-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
     flex-flow: nowrap;
+    -moz-justify-content: flex-start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
     justify-content: flex-start;
+    -moz-align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
 }
 
@@ -97,21 +144,47 @@ header ul li {
 }
 
 #nav-in-burger {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-direction: row;
+    -moz-box-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
     flex-wrap: nowrap;
+    -moz-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
     justify-content: space-around;
+    -moz-align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
 }
 
 #nav-in-burger ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-direction: column;
+    -moz-box-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     flex-wrap: nowrap;
     height: min-content;
 }
 
 .side-right {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     list-style-type: none;
     padding-left: 14px;
@@ -138,8 +211,19 @@ ul.side-right li {
     font-size: 1.3em;
     line-height: 100%;
     margin-top: 8px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-direction: row;
+    -moz-box-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -moz-align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
 }
 
@@ -271,12 +355,20 @@ ul.side-right li a:after {
 
 @media only screen and (orientation : landscape) {
         #nav-in-burger {
+            -webkit-box-direction: row;
+            -moz-box-direction: row;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
             flex-direction: row;
         }
 }
 
 @media only screen and (orientation : portrait) {
     #nav-in-burger {
+        -webkit-box-direction: column;
+        -moz-box-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 }
