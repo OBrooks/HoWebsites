@@ -316,76 +316,77 @@
 
 
 #logo-mustache:hover .circle_blue_1 {
-    animation: circle_blue_1_light 5s linear infinite;
-    -webkit-animation: circle_blue_1_light 5s linear infinite;
     -moz-animation: circle_blue_1_light 5s linear infinite;
+    -webkit-animation: circle_blue_1_light 5s linear infinite;
+    animation: circle_blue_1_light 5s linear infinite;
 }
 #logo-mustache:hover .circle_blue_2 {
+    -moz-animation: circle_blue_2_middle 5s linear infinite;
+    -webkit-animation: circle_blue_2_middle 5s linear infinite;
     animation: circle_blue_2_middle 5s linear infinite;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
 }
 #logo-mustache:hover .circle_blue_3 {
+    -moz-animation: circle_blue_3_dark 5s linear infinite;
+    -webkit-animation: circle_blue_3_dark 5s linear infinite;
     animation: circle_blue_3_dark 5s linear infinite;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
 }
 #logo-mustache:hover .circle_blue_4 {
+    -moz-animation: circle_blue_4_dark 5s linear infinite;
+    -webkit-animation: circle_blue_4_dark 5s linear infinite;
     animation: circle_blue_4_dark 5s linear infinite;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
 }
 #logo-mustache:hover .circle_blue_5 {
+    -moz-animation: circle_blue_5_middle 5s linear infinite;
+    -webkit-animation: circle_blue_5_middle 5s linear infinite;
     animation: circle_blue_5_middle 5s linear infinite;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
+    
 }
 #logo-mustache:hover .circle_blue_6 {
+    -moz-animation: circle_blue_6_light 5s linear infinite;
+    -webkit-animation: circle_blue_6_light 5s linear infinite;
     animation: circle_blue_6_light 5s linear infinite;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
 }
 
 #logo-mustache .circle_blue_1 {
+    -moz-animation: circle_blue_1_light 5s linear;
+    -webkit-animation: circle_blue_1_light 5s linear;
     animation: circle_blue_1_light 5s linear;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
     animation-delay: 1s;
 }
 
 #logo-mustache .circle_blue_2 {
+    -moz-animation: circle_blue_2_middle 5s linear;
+    -webkit-animation: circle_blue_2_middle 5s linear;
     animation: circle_blue_2_middle 5s linear;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
-        animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 #logo-mustache .circle_blue_3 {
+    -moz-animation: circle_blue_3_dark 5s linear;
+    -webkit-animation: circle_blue_3_dark 5s linear;
     animation: circle_blue_3_dark 5s linear;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
-        animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 #logo-mustache .circle_blue_4 {
+    -moz-animation: circle_blue_4_dark 5s linear;
+    -webkit-animation: circle_blue_4_dark 5s linear;
     animation: circle_blue_4_dark 5s linear;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
-        animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 #logo-mustache .circle_blue_5 {
+    -moz-animation: circle_blue_5_middle 5s linear;
+    -webkit-animation: circle_blue_5_middle 5s linear;
     animation: circle_blue_5_middle 5s linear;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
-        animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 #logo-mustache .circle_blue_6 {
+    -moz-animation: circle_blue_6_light 5s linear;
+    -webkit-animation: circle_blue_6_light 5s linear;
     animation: circle_blue_6_light 5s linear;
-        -webkit-animation: circle_blue_1_light 5s linear infinite;
-    -moz-animation: circle_blue_1_light 5s linear infinite;
-        animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 /************

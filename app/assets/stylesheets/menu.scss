@@ -17,8 +17,8 @@ header#nav-wrap {
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
     -moz-align-items: center;
     -ms-flex-align: center;
@@ -60,8 +60,8 @@ header#nav-wrap {
     display: flex;
     -webkit-box-direction: column;
     -moz-box-direction: column;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
     border-bottom: 1px solid #F2F2F2;
     padding: 0.5em 0;
@@ -122,8 +122,8 @@ header ul li {
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
     flex-flow: nowrap;
     -moz-justify-content: flex-start;
@@ -151,8 +151,8 @@ header ul li {
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
     flex-wrap: nowrap;
     -moz-justify-content: space-around;
@@ -173,10 +173,15 @@ header ul li {
     display: flex;
     -webkit-box-direction: column;
     -moz-box-direction: column;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -moz-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    height: -moz-min-content;
+    height: -webkit-min-content;
     height: min-content;
 }
 
@@ -218,8 +223,8 @@ ul.side-right li {
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
     -moz-align-items: center;
     -ms-flex-align: center;
@@ -306,6 +311,8 @@ ul.side-right.show:after {
 3. Other animations
 ************/
 ul.side-right li{
+    width: -moz-min-content;
+    width: -webkit-min-content;
     width: min-content;
 
 }
@@ -357,8 +364,8 @@ ul.side-right li a:after {
         #nav-in-burger {
             -webkit-box-direction: row;
             -moz-box-direction: row;
-            -webkit-flex-direction: row;
             -ms-flex-direction: row;
+            -webkit-flex-direction: row;
             flex-direction: row;
         }
 }
@@ -367,8 +374,8 @@ ul.side-right li a:after {
     #nav-in-burger {
         -webkit-box-direction: column;
         -moz-box-direction: column;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
+        -webkit-flex-direction: column;
         flex-direction: column;
     }
 }

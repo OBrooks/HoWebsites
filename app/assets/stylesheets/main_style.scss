@@ -53,8 +53,8 @@ body
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
     -moz-justify-content: center;     
     -ms-flex-pack: center;     
@@ -117,7 +117,11 @@ p {
 svg {
     color: white;
     fill: white;
+    height: -moz-min-content;
+    height: -webkit-min-content;
     height: min-content;
+    width: -moz-min-content;
+    width: -webkit-min-content;
     width: min-content;
 }
 
@@ -127,8 +131,12 @@ svg g {
 }
 
 path {
+    min-height: -moz-min-content;
+    min-height: -webkit-min-content;
     min-height: min-content;
-    min-width: min-content;
+    width: -moz-min-content;
+    width: -webkit-min-content;
+    width: min-content;
 }
 
 ul {
@@ -206,16 +214,16 @@ tr {
 .column {
     -webkit-box-direction: column;
     -moz-box-direction: column;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
 }
 
 .line {
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
 }
 
@@ -303,8 +311,8 @@ tr {
     display: flex;
     -webkit-box-direction: column;
     -moz-box-direction: column;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
     transition: margin-left 2s ease-in;
     width: 100%;
@@ -378,8 +386,8 @@ tr {
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
     flex-wrap: nowrap;
     -moz-justify-content: space-around;
@@ -401,7 +409,9 @@ tr {
     display: -webkit-flex;
     display: flex;
     margin: 20px;
-    height: min-content
+    height: -moz-min-content;
+    height: -webkit-min-content;
+    height: min-content;
 }
 .side-left {
     margin-left: 40px;
@@ -427,8 +437,8 @@ img.presentation-logo {
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;     
     -moz-justify-content: center;     
     -ms-flex-pack: center;     
@@ -446,8 +456,8 @@ img.presentation-logo {
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
     -moz-justify-content: center;     
     -ms-flex-pack: center;     
@@ -481,8 +491,8 @@ img.presentation-logo {
     display: flex;
     -webkit-box-direction: row;
     -moz-box-direction: row;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
     -moz-justify-content: center;     
     -ms-flex-pack: center;     
@@ -548,6 +558,7 @@ h4.line-2 {
 .side-left img {
     height: 280px;
     width: 280px;
+    -o-object-fit: cover;
     object-fit: cover;
     margin-left: 0;
     border-radius: 50%;
@@ -578,13 +589,18 @@ svg.small-circle {
 }
 
 .img-project {
+    max-width: -moz-max-content;
+    max-width: -webkit-max-content;
     max-width: max-content;
-    height: 300px;
 }
 
 .img-wrap {
     position: relative;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
     height: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
     width: fit-content;
     box-shadow: 0px 5px 29px -3px rgba(255, 255, 255, 0.30);
 }
@@ -672,8 +688,14 @@ progress-ring svg circle {
 
     header .logo {
             font-size: 200%;
+            width: 96px;
+            height: 96px;
         }
     body {
+        // font-size: 150%;
+    }
+
+    #burger {
         font-size: 150%;
     }
     
@@ -684,8 +706,8 @@ progress-ring svg circle {
     .two-sides {
         -webkit-box-direction: column;
         -moz-box-direction: column;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
+        -webkit-flex-direction: column;
         flex-direction: column;
     }
 
@@ -697,6 +719,8 @@ progress-ring svg circle {
         padding-right: 5%;
         margin-top: 15px;
         margin-bottom: 15px;
+        height: -moz-fit-content;
+        height: -webkit-fit-content;
         height: fit-content;
     }
 
@@ -730,10 +754,30 @@ progress-ring svg circle {
         -webkit-align-self: auto;
         align-self: auto;
     }
+    
+}
+
+@media (min-width: 700px) {
+
+    .img-project {
+        height: 300px;
+    }
 }
 
 @media only screen and (min-device-width : 320px) and (orientation : landscape) {
     #projects {
         margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .img-project {
+        max-width: 100%;
+        max-width: 100%;
+        max-width: 100%;
+    }
+
+    .window-fits {
+        margin-bottom: 15%;
     }
 }
