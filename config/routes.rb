@@ -4,5 +4,9 @@ Rails.application.routes.draw do
     get "about",              to: "home#about"
     get "projects",           to: "home#projects"
     get "prices",             to: "home#prices"
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  #Errors routes
+    match '/404',                               to: 'errors#not_found',                         via: :all
+    match '/422',                               to: "errors#unacceptable",                      via: :all
+    match '/500',                               to: "errors#server_errors",                     via: :all
 end
