@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:og="http://ogp.me/ns#">
   <head>
-    <title>PersonalWebsite</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= favicon_link_tag asset_path('favicon.ico') %>
+    <title>HOWebsite - Création de sites web</title>
+    <meta name="description" content="William Horel, développeur Full-Stack bordelais, crée ou modifie vos sites web. Vous pouvez lui confier tant la création du design de votre site (Front-End), que la partie logicielle (Back-End)." />
+    <meta property="og:title" content="HOWebsite - Création de sites web" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.howebsites.com/" />
+    <meta property="og:image" content="<%= asset_path(logo.svg) %>" />
   </head>
 
   <body>
