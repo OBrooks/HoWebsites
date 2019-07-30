@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "my_website_db"
-set :repo_url, "git@egithub.com:OBrooks/my_website_db.git"
+set :repo_url, "git@github.com:OBrooks/my_website_db.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
