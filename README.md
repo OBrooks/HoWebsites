@@ -1,5 +1,4 @@
-# HoWebsites
-![Howebsites](https://howebsites.com/assets/logo-27aaaca52c8f775939e2888f71fb8a067d55f1f74fed6d94d5796b3093edf2a0.svg)
+# HoWebsites <img src="lib/assets/img/logo.svg" width="30">
 
 [HoWebsites](https://howebsites.com) is my personal website, to present my freelance web developer's services and achievements.
 
