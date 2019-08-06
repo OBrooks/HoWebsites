@@ -245,6 +245,23 @@ ul.side-right.show:after {
     height: 100%
 }
 
+ul.achievements li {
+    line-height: 100%;
+}
+
+.achievements li {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+ul.achievements:after {
+    height: 0
+}
+
+ul.side-right.show:after {
+    height: 100%
+}
+
 /************
 2. Menu animation
 ************/
@@ -319,23 +336,42 @@ ul.side-right li{
 ul.side-right li a {
     white-space: nowrap;
 }
-ul.side-right li a:after {
+ul.side-right li a:after,
+ul#achievements li a:after {
     width: 0;
 }
 
-ul.side-right li a.underline:after {
+ul.side-right li a.underline:after{
     width: calc(100% - 60px);
 }
 
-ul.side-right li a:after {
+ul#achievements li a.underline:after {
+    width: 100%;
+}
+
+// ul#achievements a {
+//     width: 100px;
+// }
+
+ul.side-right li a:after,
+ul#achievements li a:after {
     -webkit-transition: width 1s ease;
     background-color: #fff;
+    display: block;
     content: "";
     left: 65px;
     bottom: 0;
     position: absolute;
     transition: width 1s ease;
-    height: 2px
+    height: 2px;
+}
+
+ul.side-right li a:after {
+    left: 65px;
+}
+
+ul#achievements li a:after {
+    left: 0;
 }
 
 /************
